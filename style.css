@@ -1,1 +1,88 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #010326;
+}
+.logo{
+    font-family: 'Monoton', cursive;
+    font-weight: bolder;
+}
+.logo a{
+    color: #497CBF;
+}
+
+.menu{
+    height: 70px;
+    background-color: #010326; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: -2px;
+    padding: 25px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #010326;
+    color: #fff;
+    text-align: center;
+}
+.menu a:hover{
+    background-color: #497CBF;
+    color: #023E73;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    gap: 20px; 
+}
+.menu ul li{
+    width: 150px;
+    float: left;
+}
+.menu ul ul{
+    visibility: hidden;
+    position: absolute;
+}
+.menu ul ul li a{
+    background-color: #069;
+    border: 0.2px solid #ffff;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+    display: block;  
+}
+.menu ul ul li{
+    float: none;
+}
+.login{
+    display: contents;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -30px;
+    font-family: 'Roboto', sans-serif;
+}
+.login a{
+    margin-left: -55px;
+    color: #ffff;
+
+    
+}
