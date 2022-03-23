@@ -118,6 +118,31 @@ main{
     padding: 15px;
 }
 .conteudo-p{
+    width: 500px;
+    margin-left: 100px;
+    text-align: justify;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+#bt{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-weight: 500;
+    margin-top: -2px;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #28292C;
+}
+#bt a{
+    color: #ffff;
+    font-size: large;
+}
+#bt:hover{
     
 }
 
