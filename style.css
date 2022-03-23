@@ -7,6 +7,15 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    border: none;
+}
+body{
+    background-color: #010326;
+
+}
+main{
+    border: 0.1px solid #497CBF;
+    font-family: 'Roboto', sans-serif;
 }
 
 .corpo{
@@ -15,6 +24,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: #010326;
+    box-shadow: 4px 5px 5px #497cbf7a;
 }
 .logo{
     font-family: 'Monoton', cursive;
