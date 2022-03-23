@@ -14,17 +14,20 @@ body{
 
 }
 main{
-    border: 0.1px solid #497CBF;
+    border-top: 0.1px solid #497CBF;
     font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
+
+/* CONTEÚDO REFERENTE AO CABEÇALHO */
 
 .corpo{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: #010326;
-    box-shadow: 4px 5px 5px #497cbf7a;
+    background-color: #28292C;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.555);
 }
 .logo{
     font-family: 'Monoton', cursive;
@@ -36,7 +39,7 @@ main{
 
 .menu{
     height: 70px;
-    background-color: #010326; 
+    background-color: #28292C; 
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,7 +53,7 @@ main{
     display: block;
     text-decoration: none;
     text-align: center;
-    background-color: #010326;
+    background-color: #28292C;
     color: #fff;
     text-align: center;
 }
@@ -95,15 +98,28 @@ main{
     color: #ffff;  
 }
 
-label[for="bt-menu"]{
-    padding: 5px;
-    background-color: #222;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
+/* CONTEÚDO REFERENTE AO CORPO */
+
+.conteudo-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+.conteudo-h1{
+    padding: 15px;
+    font-family: 'Monoton', cursive;
+    font-weight: bolder;
+    color: aqua;
+}
+.conteudo-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+.conteudo-p{
+    
+}
+
 
     
