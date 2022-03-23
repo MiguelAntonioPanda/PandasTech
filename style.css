@@ -8,6 +8,7 @@
     list-style: none;
     text-decoration: none;
     border: none;
+    overflow-x: hidden;
 }
 body{
     background-color: #010326;
@@ -17,6 +18,10 @@ main{
     border-top: 0.1px solid #497CBF;
     font-family: 'Roboto', sans-serif;
     color: #fff;
+    height: 500px;
+}
+footer{
+    border-top: 0.4px solid #ffff;
 }
 
 /* CONTEÚDO REFERENTE AO CABEÇALHO */
@@ -116,34 +121,79 @@ main{
     flex-direction: row;
     align-items: center;
     padding: 15px;
+    gap: 100px;
 }
 .conteudo-p{
-    width: 500px;
+    width: 600px;
     margin-left: 100px;
     text-align: justify;
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
+}
+#pp{
+    
 }
 #bt{
     font-family: 'Roboto', sans-serif;
+    font-weight: 200;
     font-weight: 500;
-    font-weight: 500;
-    margin-top: -2px;
+    margin-top: 15px;
     padding: 15px;
     display: block;
     text-decoration: none;
     text-align: center;
     background-color: #28292C;
+    border-radius: 5px;
+    transition-duration: 0.8s;
+    
 }
 #bt a{
     color: #ffff;
     font-size: large;
 }
 #bt:hover{
-    
+    background-color: #497CBF;
+    border-radius: 5px;
+}
+.conteudo-video{
+    border: none;
+    margin: 20px;
+}
+
+/* CONTEÚDO REFERENTE AO RODAPE */
+
+.rodape{
+    margin: 0;
+    height: 90px;
+    width: 100%;
+    background-color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+}
+.rodape a{
+    color: #497CBF;
+}
+
+#rodape-li{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    padding-top: 10px;
+    color: #fff;
+}
+.media-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
 }
 
 
